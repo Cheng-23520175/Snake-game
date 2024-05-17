@@ -326,7 +326,8 @@ void draw_Scoreboard()
     cout<<"Tam dung: Esc";
 }
 void draw_Menu()
-{
+{   
+    draw_title(); //Ham duoc khai bao trong file title.h
 	SetColor(11);
 		int x = 45, y = 10;
 		for(x=45;x<70;++x)
@@ -354,7 +355,7 @@ void draw_Menu()
 		gotoXY(70, 21); cout<<(char)188;
 		gotoXY(45, 21); cout<<(char)200;
 
-    draw_title(); //Ham duoc khai bao trong file title.h
+    
 }
 void setting_Level()
 {
