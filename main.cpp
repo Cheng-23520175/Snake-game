@@ -1,5 +1,6 @@
 #include<iostream>
 #include"mylib.h"
+#include "title.h"
 #define MAX 100
 using namespace std;
 struct Point
@@ -353,6 +354,7 @@ void draw_Menu()
 		gotoXY(70, 21); cout<<(char)188;
 		gotoXY(45, 21); cout<<(char)200;
 
+    draw_title(); //Ham duoc khai bao trong file title.h
 }
 void setting_Level()
 {
